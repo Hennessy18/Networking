@@ -16,3 +16,7 @@ The VETH (virtual Ethernet) device is a local Ethernet tunnel. Devices are creat
 Similar to the network loopback devices, the VCAN (virtual CAN) driver offers a virtual local CAN (Controller Area Network) interface, so users can send/receive CAN messages via a VCAN interface. CAN is mostly used in the automotive field nowadays.
 ## VXCAN
 Similar to the VETH driver, a VXCAN (Virtual CAN tunnel) implements a local CAN traffic tunnel between two VCAN network devices. When you create a VXCAN instance, two VXCAN devices are created as a pair. When one end receives the packet, the packet appears on the device's pair and vice versa. VXCAN can be used for cross-namespace communication.
+## ovs open virtual switch
+Open vSwitch (abbreviated to OVS) is a production quality, multilayer virtual switch. It is designed to enable massive network automation through programmatic extension, while still supporting standard management interfaces and protocols (for example, NetFlow, sFlow, IPFIX, RSPAN, CLI, LACP, 802.1ag).![image](https://github.com/user-attachments/assets/c15ffda1-9d59-43af-98f5-1bc9b22930e6)
+## Tun Tap
+TUN, namely network TUNnel, simulates a network layer device and operates in layer 3 carrying IP packets. TAP, namely network TAP, simulates a link layer device and operates in layer 2 carrying Ethernet frames. TUN is used with routing. TAP can be used to create a user space network bridge.![image](https://github.com/user-attachments/assets/63b86034-18fb-4cd3-a6d1-288285946c65)
